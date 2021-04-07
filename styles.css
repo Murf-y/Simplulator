@@ -79,7 +79,7 @@ body {
 
 .grid-container>button {
     font-size: 30px;
-    outline: none;
+    ;
 }
 
 .output {
@@ -132,4 +132,14 @@ body {
 .icon:hover {
     background-color: rgb(145, 22, 228);
     border-radius: 50%;
+}
+
+@media screen and (max-width:500px) {
+    .title,
+    .footer {
+        padding-left: 10%;
+    }
+    .grid-container {
+        width: 450px;
+    }
 }
